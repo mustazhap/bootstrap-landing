@@ -1,0 +1,46 @@
+.video{
+  height: 524px;
+
+}
+
+.horz-rect_video{
+  left: -95px;
+  background: #002e5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.play-img{
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/img/play-button.png") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.play-button{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #fff;
+  border: 10px solid rgba(#000, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: 0.2 ease;
+
+  &:hover{
+    border: 10px solid rgba(#002e5b, 0.4);
+    transition: 0.2 ease;
+
+  }
+
+}
+
+.video-wrapper{
+  margin-top: 120px;
+}
+

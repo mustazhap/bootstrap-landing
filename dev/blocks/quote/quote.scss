@@ -1,0 +1,42 @@
+.quote{
+  height: 540px;
+  color: white;
+
+
+}
+.quote-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.quote-bg{
+  background: #002e5b;
+}
+
+.quote-ico{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.quote-text{
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.quote-author{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  &:after{
+    content: "—";
+    margin-left: 5px;
+  }
+  &:before{
+       content: "—";
+       margin-right: 5px;
+     }
+}

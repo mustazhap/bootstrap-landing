@@ -1,0 +1,26 @@
+// main
+@import 'settings';
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: Montserrat;
+}
+
+// import files of blocks
+
+@import "../../blocks/header/header";
+@import "../../blocks/info/info";
+@import "../../blocks/graph/graph";
+@import "../../blocks/contact/contact";
+@import "../../blocks/service/service";
+@import "../../blocks/stat/stat";
+@import "../../blocks/video/video";
+@import "../../blocks/quote/quote";
+@import "../../blocks/contactus/contactus";
+@import "../../blocks/footer/footer";
+
+// importing media queries
+@import "media";

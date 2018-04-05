@@ -1,0 +1,32 @@
+.footer{
+  height: 81px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.footer-bg{
+  background: #002e5b;
+}
+.footer-col2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-text{
+  display: flex;
+
+  p{
+    margin-left: 5px;
+    color: #fde428;
+    margin-bottom: 0;
+  }
+}
+
+.footer-logo{
+  img{
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
+}

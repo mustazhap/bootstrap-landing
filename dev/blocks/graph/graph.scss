@@ -1,0 +1,50 @@
+.graph{
+  height: 686px;
+}
+.graph-bg{
+  background: #f4f4f4;
+  padding-top: 101px;
+}
+.graph-wrapper{
+  padding-top: 101px;
+}
+.graph-pic{
+  width: 520px;
+  height: 520px;
+  background: url("../../assets/img/xy.png");
+}
+
+.graph-block{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.graph-title{
+  color: #002e5b;
+  font-size: 31px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.graph-subtitle{
+  color: #666666;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.graph-descr{
+  line-height: 25px;
+  color: #333333;
+  font-size: 16px;
+  text-align: left;
+}
+
+.graph-button{
+  text-transform: uppercase;
+  color: #002e5b;
+  font-size: 16px;
+  border-bottom: 1px solid #002e5b;
+  text-decoration: none;
+}
